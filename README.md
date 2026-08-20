@@ -37,4 +37,4 @@ In the modern automotive landscape, reconciling strict functional safety mandate
 This repository is strictly **private, closed-source, and restricted** for internal verification, compliance auditing, and authorized security reviews only. 
 
 For official inquiries, partnership proposals, or authorized security reviews, please contact the sole owner directly via the active professional email:  
-**kadritalal84@gmail.com**
+**kadritalal38@gmail.com**
