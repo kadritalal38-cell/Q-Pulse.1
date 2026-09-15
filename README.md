@@ -11,6 +11,46 @@ Conceptual UI UX Illustration for Demo Purposes
 
 Welcome to the official repository of the **Hybrid Adaptive Embedded Real-Time Chip Core**. This project introduces a paradigm-shifting, proprietary architectural framework engineered for next-generation electric and software-defined vehicles (SDVs). By uniting ultra-low-latency deterministic execution with advanced predictive threat mitigation, this core redefines the boundaries of high-reliability embedded systems.
 
+```mermaid
+graph TD
+    subgraph Input_Layer ["Input & Security Layer"]
+        A1["Automotive Ethernet / CAN-FD Telemetry <br/>*(Slip, Velocity, IMU Acceleration)*"] --> C1
+        A2["Evita Full HSM & Auth Profile <br/>*(Hardware Fingerprint & Cryptographic 2FA)*"] --> C1
+    end
+
+    subgraph Core_Engine ["Embedded Hybrid Core - Zero Heap & Static Allocation"]
+        C1["Deterministic RTOS Core Engine <br/>*(O(1) Execution Time Constraints)*"] --> D1["Adaptive Damping & Slip Prediction Pipeline"]
+        D1 --> D2["Quantum-Inspired Optimization Module <br/>*[Proprietary Black-Box Core]*"]
+        D2 --> D3["State Integrity & E2E Protection Protocol <br/>*(AUTOSAR CRC-8/16/32 Checksum)*"]
+    end
+
+    subgraph Safety_Domain ["ASIL-D Safety & Hardware BITE Domain"]
+        S1["Hardware BITE & Dual-Core Lockstep Telemetry <br/>*(Thermal Protection & Core Junction Health)*"] -.-> D3
+    end
+
+    subgraph Isolated_Domain ["Isolated Domain - Freedom from Interference (ISO 26262 / ISO 21434)"]
+        I1["Entertainment & Luxury SIM Module <br/>*(Non-Safety Auxiliary Infotainment Subsystem)*"]
+    end
+
+    subgraph Output_Layer ["Actuator & System Output Layer"]
+        D3 --> O1["Vehicle Actuator Signals <br/>*(Steering Correction, Differential Braking, Torque Vectoring)*"]
+        D3 --> O2["Failsafe / Fail-Operational Redundancy States"]
+        I1 --> O3["Encrypted Luxury Services & Streaming Status"]
+    end
+
+    classDef input fill:#f4f6f9,stroke:#3b82f6,stroke-width:2px,color:#1e293b;
+    classDef core fill:#eff6ff,stroke:#2563eb,stroke-width:2px,color:#1e293b;
+    classDef safety fill:#fef2f2,stroke:#dc2626,stroke-width:2px,color:#1e293b;
+    classDef isolated fill:#f0fdf4,stroke:#16a34a,stroke-width:2px,color:#1e293b;
+    classDef output fill:#faf5ff,stroke:#9333ea,stroke-width:2px,color:#1e293b;
+
+    class A1,A2 input;
+    class C1,D1,D2,D3 core;
+    class S1 safety;
+    class I1 isolated;
+    class O1,O2,O3 output;
+```
+
 ## Core Architecture & Principles
 
 * **Zero-Heap Determinism:** Built completely on a static memory allocation model to completely eliminate memory fragmentation, unpredictable garbage collection, and runtime leaks.
