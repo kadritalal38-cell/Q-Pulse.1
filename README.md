@@ -2,7 +2,8 @@
 
 # HYBRID ADAPTIVE EMBEDDED REAL-TIME CHIP CORE
 
-![STATUS](https://shields.io) ![ARCHITECTURE](https://shields.io) ![CLASS](https://shields.io)
+![](https://shields.io) ![](https://shields.io) ![](https://shields.io)
+
 
 
 Conceptual UI UX Illustration for Demo Purposes
