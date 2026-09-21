@@ -1,3 +1,5 @@
+[PROPRIETARY & COMMERCIAL INDUSTRIAL ARCHITECTURE] A proprietary, closed-source hybrid adaptive embedded real-time chip core engineered for next-generation Software-Defined Vehicles (SDVs) and ASIL-D automotive safety systems.
+
 # HYBRID ADAPTIVE EMBEDDED REAL-TIME CHIP CORE
 <img width="720" height="1209" alt="Image" src="https://github.com/user-attachments/assets/3023652d-6438-4505-8bf0-9adec79701c7" />
 Conceptual UI UX Illustration for Demo Purposes
