@@ -8,7 +8,7 @@
     <td>🟠 <b>CLASS:</b> AUTOMOTIVE CHIP CORE</td>
   </tr>
 </table>
-
+<img width="720" height="466" alt="Image" src="https://github.com/user-attachments/assets/4fe71a32-35d9-4153-a953-2e46ab83a61a" />
 
 ![](https://shields.io) ![](https://shields.io) ![](https://shields.io)
 
