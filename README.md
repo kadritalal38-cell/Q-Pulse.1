@@ -1,6 +1,14 @@
 [PROPRIETARY & COMMERCIAL INDUSTRIAL ARCHITECTURE] A proprietary, closed-source hybrid adaptive embedded real-time chip core engineered for next-generation Software-Defined Vehicles (SDVs) and ASIL-D automotive safety systems.
 
 # HYBRID ADAPTIVE EMBEDDED REAL-TIME CHIP CORE
+<table>
+  <tr>
+    <td>🔴 <b>STATUS:</b> COMPLIANCE READY</td>
+    <td>🟢 <b>ARCHITECTURE:</b> ZERO-HEAP | ASIL-D</td>
+    <td>🟠 <b>CLASS:</b> AUTOMOTIVE CHIP CORE</td>
+  </tr>
+</table>
+
 
 ![](https://shields.io) ![](https://shields.io) ![](https://shields.io)
 
